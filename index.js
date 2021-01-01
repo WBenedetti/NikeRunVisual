@@ -1,11 +1,10 @@
-'use strict';
 const express = require('express')
 const request = require('request')
 const plotlib = require('nodeplotlib')
 
 const app = express()
 const port = 8081
-const bearer_token = '' // Insert bearer token from logging into Nike Run
+const bearer_token = '' // Insert bearer token here from logging into Nike Run Club
 
 /*
  * Path for time: /sport/v3/me/activities/after_time/${time}
