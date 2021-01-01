@@ -1,0 +1,24 @@
+{
+  "name": "nikerunvisual",
+  "version": "1.0.0",
+  "description": "Visualize various Nike Run Club metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WBenedetti/NikeRunVisual.git"
+  },
+  "author": "Will Benedetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WBenedetti/NikeRunVisual/issues"
+  },
+  "homepage": "https://github.com/WBenedetti/NikeRunVisual#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodeplotlib": "^0.6.5",
+    "request": "^2.88.2"
+  }
+}
